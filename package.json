@@ -1,0 +1,14 @@
+{
+  "name": "qatesting_mercurytours_cypress",
+  "version": "1.0.0",
+  "description": "QA Testing project using Cypress to test the Mercury Tours website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "reyesvictor1",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
