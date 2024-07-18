@@ -1,4 +1,4 @@
 # QATesting_MercuryTours_Cypress
-QA Automation project using Cypress. Focused on testing the functionality of the Mercury Tours website.
+QA Testing project using Cypress to test the Mercury Tours website.
 
 - Official website: [Mercury Tours](https://demo.guru99.com/test/newtours/register.php)
