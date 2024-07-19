@@ -1,7 +1,13 @@
-describe('multi-page navigation', () => {
-  it('main links work correctly', () => {
+describe("website navigation", () => {
 
-    cy.visit('https://demo.guru99.com/test/newtours/index.php')
+  // this will be executed before each test
+  beforeEach(() => {
+    cy.visit("https://demo.guru99.com/test/newtours/index.php")
+  })
+
+  it("main links work correctly", () => {
+
+    // starting test in home page
     cy.title().should("equal", "Welcome: Mercury Tours")
 
     // test SIGN-ON link
