@@ -47,7 +47,7 @@ describe("flight finder", () => {
         cy.contains(/No Seats Avaialble/i).should("be.visible") // there is a typo: should be "available"
 
         // go back to home page
-        cy.get("a[href='index.php'] > img").click() // find the anchor which have an image nested inside
+        cy.get("a[href='index.php'] > img").click() // find the anchor which has an image nested inside
         cy.title().should("equal", "Welcome: Mercury Tours")
 
     })
