@@ -50,9 +50,9 @@ describe("user registration", () => {
         // sign-in
         cy.contains("a", "sign-in").click()
         cy.title().should("equal", "Sign-on: Mercury Tours")
-        cy.get("[name='userName'").type(userName)
-        cy.get("[name='password'").type(password)
-        cy.get("[name='submit'").click()
+        cy.get("[name='userName']").type(userName)
+        cy.get("[name='password']").type(password)
+        cy.get("[name='submit']").click()
         cy.title().should("equal", "Login: Mercury Tours")
         cy.contains("Login Successfully").should("be.visible")
 
